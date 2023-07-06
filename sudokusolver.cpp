@@ -41,7 +41,7 @@ void rec(int i,int j){
         cout<<ans<<endl;    //printing number of solutions
         for(int ii=0;ii<bsize;ii++){
             for(int jj=0;jj<bsize;jj++){    //printing board with solution filled in
-                cout<<board[ii][jj];
+                cout<<board[ii][jj]<<" ";
             }
             cout<<endl;
         }
